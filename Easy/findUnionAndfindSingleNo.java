@@ -61,7 +61,7 @@ public class findUnionAndfindSingleNo {
     }
 
     public static void addIFNotDuplicate(List<Integer> result, int value) {
-        if (result.isEmpty() || result.get(result.size() - 1) != value) {
+        if (result.isEmpty() || result.get(result.size() - 1) != value) {//check last ele of list is equal to value if not then add it to list that's it and if list is empty then add in list.
             result.add(value);
         }
     }
